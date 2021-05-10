@@ -1,0 +1,11 @@
+micronaut:
+  server:
+    port: 8083
+  application:
+    name: restapi
+    datasources:
+      default:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: postgres
+        password: zaur12
+
